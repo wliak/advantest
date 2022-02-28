@@ -1,6 +1,8 @@
 /**
  * Example testprogram
  */
+
+ // test
 testprogram Example {
     dutboard = common.ExampleBoard;
 
