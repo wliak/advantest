@@ -1,0 +1,44 @@
+/**
+ * Small DUT board for two sites with two utility lines, two enabled and one disabled signal
+ */
+dutboard ExampleBoard {
+
+    sites = 2;
+
+    utilityLine uti_0 {
+        pogo = 101;
+    }
+
+    utilityLine uti_1 {
+        pogo = 102;
+    }
+
+    signal VCC {
+        site 1 { pogo = 20101; }
+        site 2 { pogo = 20102; }
+    }
+
+
+    signal IO_0 {
+        site 1 { pogo = 11703; }
+        site 2 { pogo = 11803; }
+        routing {
+            site 1 { uti_0 = 1; uti_1 = 0; }
+            site 2 { uti_0 = 1; uti_1 = 0; }
+        }
+    }
+
+    signal IO_1 {
+        site 1 { pogo = 11710; }
+        site 2 { pogo = 11810; }
+        routing {
+            site 1 { uti_0 = 1; uti_1 = 0; }
+            site 2 { uti_0 = 1; uti_1 = 0; }
+        }
+    }
+
+    @Disabled
+    signal FAULT_BUS_8 {
+        site 1 { pogo = 10701; }
+    }
+}

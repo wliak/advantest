@@ -1,0 +1,14 @@
+/**
+ * Example testprogram
+ */
+testprogram Example {
+    dutboard = common.ExampleBoard;
+
+    testflow PreBind {
+        flow = common.ExamplePreBind;
+    }
+
+    testflow Main {
+        flow = common.ExampleMain;
+    }
+}

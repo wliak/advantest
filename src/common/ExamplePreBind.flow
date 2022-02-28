@@ -1,0 +1,10 @@
+flow ExamplePreBind {
+
+    setup {
+        suite defineBins calls common.DefineBins {}
+    }
+
+    execute {
+        defineBins.execute();
+    }
+}

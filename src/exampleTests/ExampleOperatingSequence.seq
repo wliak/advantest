@@ -1,0 +1,9 @@
+
+sequence ExampleOperatingSequence {
+
+    sequential {
+        actionCall exampleAction;
+        patternCall exampleTests.ExamplePattern;
+    }
+
+}

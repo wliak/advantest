@@ -1,0 +1,27 @@
+# Output dir names
+.abin
+.src-gen
+.src-gen-flow
+bin
+
+# Generated setups
+dsa_gen
+
+# Generated files by setups
+*._trace
+*.class
+*.flowbin
+*.mdat
+*.oseq-gen
+*.osmdat
+*.prog-gen
+*.protocol-gen
+*.tplic-gen
+*.tr_seq_def-gen
+*.wave-gen
+
+# Dedicated files
+.aclasspath
+.asourcepath
+.aproject
+.*~
