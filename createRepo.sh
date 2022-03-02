@@ -14,5 +14,5 @@ echo Please select (1-7) :
 read NUMB
 git remote add origin https://github.com/wliak/labsCrossConnect${NUMB}.git
 echo username - wliak
-echo password - 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
+echo password - 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
 git push -u origin main
