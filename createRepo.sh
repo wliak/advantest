@@ -27,3 +27,5 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/wliak/advantest.git
 git push -u origin main
+
+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
