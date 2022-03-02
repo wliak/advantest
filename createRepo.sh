@@ -30,3 +30,17 @@ git push -u origin main
 
 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
 git remote add origin https://github.com/wliak/labsCrossConnect7.git
+
+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
+
+git clean -n
+git clean -f
+rm -rf .git
+git init
+git add -A
+git config --global user.email "wailiak@gmail.com"
+git config --global user.name "wliak"
+git commit -m "first commit"
+git remote add origin https://github.com/wliak/labsCrossConnect7.git
+git branch -M main
+git push -u origin main
