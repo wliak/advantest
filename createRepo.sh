@@ -29,3 +29,4 @@ git remote add origin https://github.com/wliak/advantest.git
 git push -u origin main
 
 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
+git remote add origin https://github.com/wliak/labsCrossConnect7.git
