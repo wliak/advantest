@@ -10,7 +10,7 @@ echo 4 - Khai Joe
 echo 5 - leying
 echo 6 - Yen Lee
 echo 7 - Alex
-echo Please select (1-7) :
+echo Please select 1-7 :
 read NUMB
 git remote add origin https://github.com/wliak/labsCrossConnect${NUMB}.git
 echo username - wliak
